@@ -1,0 +1,13 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', 'Segoe UI', Arial, sans-serif;
+  background-color: #052428;
+  background-image: linear-gradient(135deg, #0a3b3b 0%, #052428 100%);
+  min-height: 100vh;
+  padding: 1rem;
+}

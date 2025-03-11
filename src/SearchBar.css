@@ -1,0 +1,60 @@
+  .search-bar-container {
+    margin-bottom: 2rem;
+  }
+  
+  .search-bar-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  
+  .search-bar-textfield {
+    width: 100% !important;
+    background-color: rgba(255, 255, 255, 0.05) !important;
+    border-radius: 8px !important;
+  }
+  
+  .search-bar-textfield .MuiOutlinedInput-root {
+    border-radius: 8px !important;
+    color: #f5f5f5 !important;
+  }
+  
+  .search-bar-textfield .MuiInputLabel-root {
+    color: #ccc !important;
+  }
+  
+  .search-bar-textfield .MuiOutlinedInput-notchedOutline {
+    border-color: rgba(255, 255, 255, 0.2) !important;
+  }
+  
+  .search-bar-button {
+    padding: 0.75rem 0 !important;
+    border-radius: 8px !important;
+    font-weight: 600 !important;
+    letter-spacing: 1px !important;
+    background-color: #ff7746 !important;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2) !important;
+    transition: all 0.2s !important;
+  }
+  
+  .search-bar-button:hover {
+    background-color: #ff8c5a !important;
+    transform: translateY(-2px) !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15) !important;
+  }
+  
+  @media (min-width: 600px) {
+    .search-bar-form {
+      flex-direction: row;
+      align-items: flex-start;
+    }
+    
+    .search-bar-textfield {
+      flex-grow: 1 !important;
+    }
+    
+    .search-bar-button {
+      width: 100px !important;
+      margin-top: 3px !important;
+    }
+  }
